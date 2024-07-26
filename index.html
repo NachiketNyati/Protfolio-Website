@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nachiket Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/621258d6e8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="/Nachiket_Nyati_WebResume.pdf" download>  
+          <img class="logo" src="/NN(2).png" alt="logo" />
+          </a>
+          <ul id="sidemenu">
+            <!-- <li><a href="#header">Home</a></li> -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>WEB DESIGN & DEVELOPER</p>
+          <h1>Hi, I'm <span>Nachiket</span><br />From India</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div id="about" data-aos="fade-up-right">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/Nachiket.png" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As a Computer Engineering graduate from Amrutvahini College of
+              Engineering, I am eager to start my career in software
+              development. My internship at Unix Technologies gave me valuable
+              industry experience. I am passionate about Web Development,
+              Digital Marketing, and SEO. My UX/UI Design skills are enhanced by
+              Figma, and I’m skilled in HTML, CSS, and JavaScript. Currently, I
+              am learning React.js to expand my expertise.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                SKILLS
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                EXPERIENCE
+              </p>
+              <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development </span><br />Skilled in creating
+                  responsive, user-friendly websites using modern HTML, CSS, and
+                  JavaScript frameworks.
+                </li>
+                <li>
+                  <span>UX/UI Design</span><br />Crafting intuitive and visually
+                  appealing web interfaces that enhance user experience and
+                  engagement.
+                </li>
+
+                <li>
+                  <span>Digital Marketing</span><br />Expert in SEO, Social
+                  Media Marketing, and Google Ads, driving online visibility and
+                  engagement through data-driven strategies.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>FEB 2023 - AUG 2023</span>
+                  <br /><br />
+                  <strong>Web Design & Development, Sangamner, India</strong>
+                  <br /><br />
+                  I worked on various website projects, focusing on UI design
+                  and development. Using HTML, CSS, and JavaScript, I built
+                  responsive websites that worked well on both computers and
+                  phones. I also gained experience with WordPress. Most of my
+                  projects were completed successfully, and clients were happy
+                  with how user-friendly the sites were.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span><br />Computer Engineering from Amrutvahini
+                  College Of Engineering
+                </li>
+                <li><span>2020</span><br />12th from Pravara Public School</li>
+                <li><span>2018</span><br />10th from Good Shepherd Academy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+
+    <div id="services" data-aos="zoom-in">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I build responsive websites using HTML, CSS, and JavaScript, and
+              am starting to learn ReactJS for advanced development.
+            </p>
+
+            <!-- <a href="">Learning</a> -->
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UX/UI Design</h2>
+            <p>
+              I design user-friendly interfaces using Figma, focusing on
+              creativity, typography, prototyping and also on wireframing.
+            </p>
+
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-ranking-star"></i>
+            <h2>Digital Marketing</h2>
+            <p>
+              I specialize in digital marketing, using strategies like SEO,
+              social media, and content marketing to boost online presence.
+            </p>
+
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-button"></i>
+            <h2>No-Code Websites</h2>
+            <p>
+              I use WordPress for SEO, Relume for site-making and prototyping,
+              and tools like Webflow and Framer for dynamic no-code sites.
+            </p>
+
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section -->
+
+    <div id="portfolio" data-aos="fade-up-right">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="img1" />
+            <div class="layer">
+              <h3>3D Website</h3>
+              <p>
+                Explore interactive 3D experiences online. It’s easy to use and
+                offers a unique, immersive view of content.
+              </p>
+
+              <a
+                href="https://nachiketnyati.github.io/3D-Website/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="img2" />
+            <div class="layer">
+              <h3>GYMSTER Website</h3>
+              <p>
+                Launched a fitness website with workout plans, nutrition advice, and community engagement and more.
+              </p>
+
+              <a href="https://nachiketnyati.github.io/Gymster/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="img3" />
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p>
+                A showcase of my projects and skills, designed to impress
+                clients and employers.
+              </p>
+
+              <a href="https://nachiketnyati.github.io/Protfolio/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>nachiketnyati2002@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 8999214046</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a
+                href="https://www.linkedin.com/in/nachiket-nyati-26253221b"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="/Nachiket_Nyati_WebResume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @ Nachiket Nyati Made with by Easy Tutorial<i
+            class="fa-solid fa-heart"
+          ></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzFdSt4VzA1-qENtu0faXiylgtjA8zWNWNJXxbvhznO0lsd1CEL4paa2DFfwdIH-3bBDw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1200, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+  </body>
+</html>
