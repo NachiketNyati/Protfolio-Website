@@ -75,8 +75,9 @@ nav ul li a:hover::after{
 
 
 .header-text {
-    margin: 200px; /* Remove any default margin */
+    margin-top: 20%; /* Reduced from 200px to be more responsive */
     font-size: 40px;
+    text-align: center;
 }
 
 .header-text h1 {
@@ -89,6 +90,9 @@ nav ul li a:hover::after{
     color: #ff004f;
 
 }
+
+
+
 
 
 /* --------------About Section----------------- */
@@ -423,19 +427,15 @@ nav .fa-solid{
 
 
 @media only screen and (max-width: 600px){
-    #header{
-        /* background-image: url(images/phone-background.png); */
-
+    .header-text {
+        margin-top: 40%;
+        font-size: 24px;
     }
 
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+    .header-text h1 {
+        font-size: 36px;
     }
 
-    .header-text h1{
-        font-size: 30px;
-    }
 
     nav .fa-solid{
         display: block;
